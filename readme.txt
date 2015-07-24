@@ -11,7 +11,7 @@ Enables your customers to make rental reservations from your website by Connecti
 
 == Description ==
 
-**Booqable** is easy to use Online Rental Software. It's used by rental companies, large organizations and universities all over the world.
+**[Booqable Rental Software](https://booqable.com/ "Booqable Online Rental Software")** is easy to use Online Rental Software. It's used by rental companies, large organizations and universities all over the world.
 
 This plugin enables your customers to make rental reservations from your website by Connecting Wordpress to the Booqable Reservation Software. Reservations are securely stored in the Booqable backoffice app.
 
