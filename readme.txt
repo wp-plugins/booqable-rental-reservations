@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: booqable-rental-software, jhnvz
+Contributors: booqable-rental-software
 Tags: Rental Software, Bookings, Reservations, Booking, booking engine, booking plugin, Booking Software, booking system, bookings, online booking, Rental Booking, Reservation, reservation plugin, reservation system, reservation software
 Requires at least: 2.0
 Tested up to: 4.2.2
