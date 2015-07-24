@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Booqable Rental Reservations  ===
 Contributors: booqable-rental-software
 Tags: Rental Software, Bookings, Reservations, Booking, booking engine, booking plugin, Booking Software, booking system, bookings, online booking, Rental Booking, Reservation, reservation plugin, reservation system, reservation software
 Requires at least: 2.0
@@ -11,7 +11,9 @@ Enables your customers to make rental reservations from your website by Connecti
 
 == Description ==
 
-**Booqable** is easy to use Online Rental Software. It's used by rental companies, large organizations and universities all over the world. This plugin enables your customers to make rental reservations from your website by Connecting Wordpress to the Booqable Reservation Software. Reservations are securely stored in the Booqable backoffice app.
+**Booqable** is easy to use Online Rental Software. It's used by rental companies, large organizations and universities all over the world.
+
+This plugin enables your customers to make rental reservations from your website by Connecting Wordpress to the Booqable Reservation Software. Reservations are securely stored in the Booqable backoffice app.
 
 == Installation ==
 
