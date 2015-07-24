@@ -7,11 +7,11 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Enables your customers to make rental reservations from your website by Connecting Wordpress to the Booqable Reservation Software. Reservations are securely stored in the Booqable backoffice app.
+Enables your customers to make rental reservations from your website by Connecting Wordpress to the Booqable Reservation Software.
 
 == Description ==
 
-**Booqable** is easy to use Online Rental Software. It's used by rental companies, large organizations and universities all over the world.
+Reservations are securely stored in the Booqable backoffice app. **Booqable** is easy to use Online Rental Software. It's used by rental companies, large organizations and universities all over the world.
 
 == Installation ==
 
