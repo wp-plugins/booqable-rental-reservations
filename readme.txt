@@ -1,6 +1,6 @@
 === Booqable Rental Reservations  ===
 Contributors: booqable-rental-software
-Tags: rental software, bookings, reservations, booking, booking engine, booking plugin, booking software, booking system, bookings, online booking, rental booking, reservation, reservation plugin, reservation system, reservation software
+Tags: rental software, rental, rentals, rental system, bookings, reservations, booking, booking engine, booking plugin, booking software, booking system, bookings, online booking, rental booking, reservation, reservation plugin, reservation system, reservation software
 Requires at least: 2.0
 Tested up to: 4.2.2
 Stable tag: 4.3
