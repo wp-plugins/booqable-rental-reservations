@@ -2,7 +2,15 @@
   if($_POST['booqable_hidden'] == 'Y') {
     //Form data sent
     $company_name = sanitize_text_field($_POST['booqable_company_name']);
-    update_option('booqable_company_name', $company_name);
+
+    // Check if company name is valid
+    $response = wp_remote_get('https://' . $company_name . '.booqable.com');
+
+    if ($response['response']['code'] == 404) {
+      $company_name_error = true;
+    } else {
+      update_option('booqable_company_name', $company_name);
+    }
 
     $booqable_add_button_label = sanitize_text_field($_POST['booqable_add_button_label']);
     update_option('booqable_add_button_label', $booqable_add_button_label);
@@ -20,9 +28,11 @@
     }
 
     update_option('booqable_show_prices', $show_prices);
-    ?>
-    <div class="updated"><p><strong><?php _e('Options saved.' ); ?></strong></p></div>
-    <?php
+    if($company_name_error) : ?>
+      <div class="error settings-error notice is-dismissible"><p><strong><?php _e('Your company could not be found. Check your company name.'); ?></strong></p></div>
+    <?php else : ?>
+      <div class="updated"><p><strong><?php _e('Options saved.'); ?></strong></p></div>
+    <?php endif; ?><?php
   } else {
     $company_name = get_option('booqable_company_name');
     $booqable_add_button_label = get_option('booqable_add_button_label');
@@ -43,7 +53,7 @@
             <label for="booqable_company_name"><?php _e("Company name" ); ?></label>
           </th>
           <td>
-            <input type="text" name="booqable_company_name" value="<?php echo $company_name; ?>" size="20" class="regular-text">
+            <input type="text" name="booqable_company_name" value="<?php echo $company_name; ?>" size="20" class="regular-text">.booqable.com
             <p class="description"><?php _e(" ex: irent" ); ?></p>
           </td>
         </tr>
