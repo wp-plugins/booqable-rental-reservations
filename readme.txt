@@ -18,7 +18,7 @@ This plugin enables your customers to make rental reservations from your website
 == Installation ==
 
 1. Install the Booqable Booking plugin in your Wordpress admin by going to *'Plugins / Add New'* and  searching for *'Booqable'*,  **(or)** If doing a manual install, download the plugin and unzip into your `/wp-content/plugins/` directory.
-2. Activate the the plugin through the 'Plugins' menu in WordPress.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 = Configuration =
 
@@ -37,6 +37,9 @@ This plugin enables your customers to make rental reservations from your website
 4. Secure Booqable hosted checkout.
 
 == Changelog ==
+
+= 1.0.2.beta =
+* Add validation on company name
 
 = 1.0.1.beta =
 * Improve security

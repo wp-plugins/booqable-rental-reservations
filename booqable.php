@@ -4,7 +4,7 @@
     Plugin URI: https://booqable.com
     Description: Enables your customers to make rental reservations from your website by Connecting Wordpress to the Booqable Reservation Software.
     Author: Johan van Zonneveld
-    Version: 1.0.1.beta
+    Version: 1.0.2.beta
     Author URI: https://booqable.com
     Copyright: 2015 Booqable
     */
